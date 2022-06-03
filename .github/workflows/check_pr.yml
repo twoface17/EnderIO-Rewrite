@@ -1,6 +1,6 @@
 name: Check PR
 
-on: [workflow_dispatch]
+on: [pull_request]
 
 jobs:
   build:
